@@ -58,7 +58,7 @@ body{
 
 .logo{
 	font-size:25px;
-	color:#ededed;
+	color:#76cecf;
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -104,11 +104,13 @@ color:#00abf0;
 
 
 .subheader h1 {
-	color:#ededed;
+	font-style: boldest;
+	color:#88d4d5;
 	font-size:40px;
 	text-align: center;
 	font-weight:200;
 }
+
 
 .about{
 	height:70vh;
@@ -208,9 +210,9 @@ color:#00abf0;
 }
 
 .carpoolingText {
-    color: #081b29;
+    color: #d5d5d5;
 	font-size:20px;
-    background-color: #00abf0;
+    background-color: #081b29;
     border: 3px solid;
     border-left: 0;
     border-color: #55c2c3;
@@ -229,7 +231,14 @@ color:#00abf0;
 .carpoolingText h1{
 	font-size:100%;
 	text-decoration: underline;
+	color:#76cecf;
+
 }
+.carpoolingText h6{
+	color:#76cecf
+
+}
+
 .carpoolingText h3{
 	font-size:70%;
 }
@@ -271,7 +280,7 @@ color:#00abf0;
 .receiptText {
     color: #081b29;
 	font-size:20px;
-    background-color: #00abf0;
+    background-color: #76cecf;
     border: 3px solid;
     border-left: 0;
     border-color: #55c2c3;
@@ -290,12 +299,21 @@ color:#00abf0;
 .receiptText h1{
 	font-size:100%;
 	text-decoration: underline;
+	color: #000000;
+}
+
+.receiptText h6{
+	color:#000000
+
 }
 .receiptText h3{
 	font-size:70%;
 }
 
 
-
+.shadow{
+	box-shadow: 0 4px 30px #88d4d5;
+	border-radius:20px ;
+}
 
 
