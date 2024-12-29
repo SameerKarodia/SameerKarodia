@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+	scroll-padding-top: 100px;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Poppins', sans-serif;
+}
+
+body{
+	background:#081b29;
+}
+
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:20px 10%;
+	background: #081b29;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100; 
+}
+
+
+/* Initially hidden */
+.fade-in {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 1s ease-out, transform 1.5s ease-out;
+  }
+  
+  /* When the class is activated */
+.fade-in.visible {
+	opacity: 1;
+	transform: translateY(0);
+  }
+  
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.logo{
+	font-size:25px;
+	color:#ededed;
+	text-decoration: none;
+	font-weight: 600;
+}
+.logos a{
+	text-decoration: none;
+}
+
+.profilepic img{
+	margin-right:300px;
+	border:5px solid;
+	border-color: #55c2c3;
+	border-radius:50px;
+}
+
+.navbar a{
+	font-size:18px;
+	color:#ededed;
+	font-weight:500;
+	text-decoration:none;
+	margin-left:35px;
+	transition:.5s;
+}
+
+.navbar a:hover,.navbar a.default{
+color:#00abf0;
+}
+
+
+.home{
+	animation: fadeIn 1.5s ease-out forwards;
+	display:flex;
+	align-items: center;
+	height:100vh;
+	justify-content: space-between;
+}
+.home-content{
+	color:#ededed;
+	font-size:26px;
+	margin-left:200px;
+	max-width: 60%;
+	
+}
+
+
+.subheader h1 {
+	color:#ededed;
+	font-size:40px;
+	text-align: center;
+	font-weight:200;
+}
+
+.about{
+	height:70vh;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+
+.aboutme {
+	margin-left:220px;
+	color:#ededed;
+	font-size:22px;
+	width:70%;
+	text-align: center;
+
+}
+
+.languagelogos{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.languagelogos2{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap:wrap;
+}
+
+
+.parent {
+	display:inline-block;
+	align-items:center;
+	flex-direction: column;
+	margin:70px;
+
+
+}
+
+.parent img{
+	height:120px;
+	width:auto;
+
+}
+
+.parent h3{
+	text-align: center;
+	color:#ededed;
+}
+
+.php{
+	width:150px !important;
+}
+.javascript{
+	height:130px !important;
+}
+
+
+/* ------------CARPOOLING SYSTEM STYLING-------------*/
+.Projects {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  
+}
+
+
+
+.carpoolingContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch; 
+	
+}
+
+.carpoolingChild {
+    display: flex;
+   
+}
+
+.carpoolingPic {
+    border: 3px solid;
+    border-right: 0;
+    border-color: #55c2c3;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 400px;
+    width: 40vw;
+	padding: 0;
+}
+
+.carpoolingText {
+    color: #081b29;
+	font-size:20px;
+    background-color: #00abf0;
+    border: 3px solid;
+    border-left: 0;
+    border-color: #55c2c3;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+	flex-direction: column;
+	padding: 5%;
+	width:23vw;
+}
+
+.carpoolingText h1{
+	font-size:100%;
+	text-decoration: underline;
+}
+.carpoolingText h3{
+	font-size:70%;
+}
+
+
+
+/* ------------RECEIPT SYSTEM STYLING-------------*/
+.Projects2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  
+}
+.receiptContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch; 
+	
+}
+
+.receiptChild {
+    display: flex;
+   
+}
+
+.receiptPic {
+    border: 3px solid;
+    border-right: 0;
+    border-color: #55c2c3;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 400px;
+    width: 40vw;
+	padding: 0;
+}
+
+.receiptText {
+    color: #081b29;
+	font-size:20px;
+    background-color: #00abf0;
+    border: 3px solid;
+    border-left: 0;
+    border-color: #55c2c3;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+	flex-direction: column;
+	padding: 5%;
+	width:23vw;
+}
+
+.receiptText h1{
+	font-size:100%;
+	text-decoration: underline;
+}
+.receiptText h3{
+	font-size:70%;
+}
+
+
+
+
+
