@@ -36,7 +36,7 @@ fadeInElements.forEach(element => {
 
   
 // Select all elements with the "fade-in" class
-const fadeInElements = document.querySelectorAll('.fade-in');
+// const fadeInElements = document.querySelectorAll('.fade-in');
 
 // Set up an IntersectionObserver
 const observer = new IntersectionObserver(
