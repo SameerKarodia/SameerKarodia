@@ -14,14 +14,28 @@
 		<a href="#home" class="logo">Sameer Karodia</a>
 
 		<nav class="navbar">
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#projects">Projects</a>
-			<a href="https://docs.google.com/document/d/1Z-hJIi9zQ215wVZfrnP5HEBED8YbseYGNzbPkD--Jgc/edit?usp=sharing" target="_blank">Resume</a>
+			<button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+			<div class="menu">
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="https://docs.google.com/document/d/1Z-hJIi9zQ215wVZfrnP5HEBED8YbseYGNzbPkD--Jgc/edit?usp=sharing" target="_blank" class="resume">Resume</a>
+			</div>
+		</nav>
+		
 		</nav>
 	</header>
 
-	<section id="home" class="home">
+	<div id="home" class="home">
+
+		<!-- Profile Pic -->
+		<div class="profilepic">
+
+			<img src="pfp.jpg" >
+
+		</div>
+
 
 		<!-- Home Info and Logos -->
 		<div class="home-content">
@@ -32,29 +46,22 @@
 			<div class="logos">
 
 			<a href="https://www.linkedin.com/in/sameer-karodia-670a99159" target="_blank">
-				<img src="linkedinLogo.png" length="60" width="60"/>
+				<img src="linkedinLogo.png" />
 			</a>
 
 			<a href="https://github.com/SameerKarodia" target="_blank">
-				<img src="githubLogo.png" length="60" width="60"/>
+				<img src="githubLogo.png"/>
 			</a>
 
 			<a href="mailto:recipient@sameer.karodia@ontariotechu.net" target="_blank">
-				<img src="emailLogo.png" length="60" width="60"/>
+				<img src="emailLogo.png" />
 			</a>
 
 			</div>
 	
 		</div>
 
-		<!-- Profile Pic -->
-		<div class="profilepic">
-
-				<img src="pfp.jpg" length="250" width="250">
-
-		</div>
-
-	</section>
+	</div>
 
 	<section id="about" class="about fade-in">
 
@@ -63,12 +70,11 @@
 			<h1>════ About Me ════</h1>
 
 		</div>
-		<br>
-		<br>
+		
 		<!-- About Me Paragraph -->
 		<div class="aboutme">
 
-			<p> Hello, my name is <span style="color:#55c2c3;font-size:27px">Sameer Karodia</span> and I am pursuing my second year of Software Engineering at <span style="color:#55c2c3;font-size:27px">Ontario Tech University</span>, where I am building a strong understanding of version control, cutting-edge software tools and gaining insight into a variety of different programming languages. I am especially interested in <span style="color:#55c2c3;font-size:27px">Web Development</span> and <span style="color:#55c2c3;font-size:27px">App Development</span> where I can utilize my skills in <span style="color:#55c2c3;font-size:27px">front-end</span> and <span style="color:#55c2c3;font-size:27px">back-end</span> technologies to build responsive, user-friendly applications that solve <span style="color:#55c2c3;font-size:27px">real-world problems</span>.</p>
+			<p> Hello, my name is <span style="color:#55c2c3;font-size:140%">Sameer Karodia</span> and I am pursuing my second year of Software Engineering at <span style="color:#55c2c3;font-size:140%">Ontario Tech University</span>, where I am building a strong understanding of version control, cutting-edge software tools and gaining insight into a variety of different programming languages. I am especially interested in <span style="color:#55c2c3;font-size:140%">Web Development</span> and <span style="color:#55c2c3;font-size:140%">App Development</span> where I can utilize my skills in <span style="color:#55c2c3;font-size:140%">front-end</span> and <span style="color:#55c2c3;font-size:140%">back-end</span> technologies to build responsive, user-friendly applications that solve <span style="color:#55c2c3;font-size:140%">real-world problems</span>.</p>
 
 		</div>
 
@@ -83,52 +89,49 @@
 			
 			<h1>════ Skills ════</h1>
 		</div>
+	</section>
 
 		<!-- Programming Language Logos -->
-		<div class="languagelogos">
+		<div class="languagelogos fade-in">
 
 			<div class="parent">
-				<img class="java" src="javaLogo.png" >
+				<img  src="javaLogo.png" >
 				<h3>Java</h3>
 			</div>
 
 			<div class="parent">
-				<img class="python" src="pythonLogo2.png">
+				<img  src="pythonLogo2.png">
 				<h3>Python</h3>
 			</div>
 
 			<div class="parent">
-				<img class="html" src="htmlLogo.png">
+				<img  src="htmlLogo.png">
 				<h3>HTML5</h3>
 			</div>
 
 			<div class="parent">
-				<img class="javascript" src="javascriptLogo2.png">
+				<img  src="javascriptLogo2.png">
 				<h3>JavaScript</h3>
 			</div>
-		</div>
-
-		<!--Pragramming Language Logos Row 2-->
-		<div class="languagelogos2">
 
 			<div class="parent">
-				<img class="mysql" src="mysqlLogo2.png">
+				<img  src="mysqlLogo2.png">
 				<h3>MySQL</h3>
 			</div>
 
 			<div class="parent">
-				<img class="c" src="c++Logo.png">
+				<img  src="c++Logo.png">
 				<h3>C++</h3>
 			</div>
 
 			<div class="parent">
-				<img class="php" src="phpLogo.png">
+				<img  src="phpLogo.png">
 				<h3>PHP</h3>
 			</div>
 
 		</div>
 
-	</section>
+	
 
 	<br>
 	<div id="projects" class="subheader fade-in">
